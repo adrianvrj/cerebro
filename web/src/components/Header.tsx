@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const NAV = [
@@ -15,9 +16,15 @@ export default function Header() {
     <header className="border-b border-white/10 px-6 py-4 flex items-center justify-between sticky top-0 bg-black/90 backdrop-blur-sm z-50">
       <Link
         href="/"
-        className="text-xl font-bold glitch-hover cursor-pointer"
+        className="flex items-center gap-2 text-xl font-bold cursor-pointer"
       >
-        [CEREBRO]
+        <span className="glitch-hover" data-text="[CEREBRO]">[CEREBRO]</span>
+        <Image
+          src="/cerebro-icon.png"
+          alt="Cerebro Logo"
+          width={24}
+          height={24}
+        />
       </Link>
 
       <nav className="flex items-center gap-6">
@@ -25,7 +32,8 @@ export default function Header() {
           <Link
             key={item.href}
             href={item.href}
-            className={`text-[11px] tracking-[0.25em] font-mono transition-colors duration-100 border px-3 py-1.5 ${
+            data-text={item.label}
+            className={`text-[11px] tracking-[0.25em] font-mono transition-colors duration-100 border px-3 py-1.5 glitch-hover ${
               pathname === item.href
                 ? "bg-white text-black border-white"
                 : "border-white/20 text-white/50 hover:text-white hover:border-white"

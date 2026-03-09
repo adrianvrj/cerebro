@@ -87,7 +87,7 @@ export default function Landing() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95]">
               PROVE IDENTITY.
               <br />
-              <span className="text-white/30">REVEAL NOTHING.</span>
+              <span className="text-white/30 reveal-text">REVEAL NOTHING.</span>
             </h1>
           </motion.div>
 
@@ -110,14 +110,14 @@ export default function Landing() {
               href="/prove"
               className="border border-white px-6 py-3 text-sm tracking-[0.3em] font-bold uppercase hover:bg-white hover:text-black transition-colors duration-100 flex items-center justify-center gap-3"
             >
-              TRY_IT_NOW
+              <span className="glitch-hover" data-text="TRY_IT_NOW">TRY_IT_NOW</span>
               <ArrowRight size={14} />
             </Link>
             <Link
               href="/docs"
               className="border border-white/20 px-6 py-3 text-sm tracking-[0.3em] text-white/50 uppercase hover:text-white hover:border-white transition-colors duration-100 text-center"
             >
-              READ_DOCS
+              <span className="glitch-hover" data-text="READ_DOCS">READ_DOCS</span>
             </Link>
           </motion.div>
         </motion.div>
@@ -309,7 +309,7 @@ export default function Landing() {
             href="/prove"
             className="inline-flex items-center gap-3 border border-white px-8 py-3 text-sm tracking-[0.3em] font-bold uppercase hover:bg-white hover:text-black transition-colors duration-100"
           >
-            LAUNCH_PROVER
+            <span className="glitch-hover" data-text="LAUNCH_PROVER">LAUNCH_PROVER</span>
             <ArrowRight size={14} />
           </Link>
         </motion.div>

@@ -158,10 +158,10 @@ export default function ProvePage() {
           {loading ? (
             <>
               <Loader2 size={14} className="animate-spin" />
-              PROVING...
+              <span className="glitch-hover" data-text="PROVING...">PROVING...</span>
             </>
           ) : (
-            "GENERATE_PROOF"
+            <span className="glitch-hover" data-text="GENERATE_PROOF">GENERATE_PROOF</span>
           )}
         </button>
       </section>
