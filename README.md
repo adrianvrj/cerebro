@@ -1,4 +1,4 @@
-# Cerebro
+# <img src="web/public/cerebro-icon.png" width="32" height="32" valign="middle"> Cerebro
 
 Cerebro is a Zero-Knowledge (ZK) proving service designed to verify JSON Web Tokens (JWT) using Groth16 proofs. It allows clients to generate mathematical proofs that a given JWT is valid according to a specific RSA public key, without revealing sensitive information from the token payload on-chain.
 
