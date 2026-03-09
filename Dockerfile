@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/iden3/rapidsnark.git /rapidsnark
 WORKDIR /rapidsnark
+RUN git submodule update --init --recursive
 RUN mkdir build_dir && cd build_dir && \
     cmake .. -DCMAKE_BUILD_TYPE=Release -DUSE_ASM=ON && \
     make -j$(nproc)
