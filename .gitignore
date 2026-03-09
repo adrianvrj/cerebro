@@ -19,6 +19,7 @@ my_project/
 
 # Keep verification_key.json (small, needed for reference)
 !build/verification_key.json
+!build/jwt_verify_js/
 
 # Environment
 .env
