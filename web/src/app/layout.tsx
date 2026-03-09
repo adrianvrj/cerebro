@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   title: "Cerebro — zkJWT",
   description:
     "Generate zk proofs for JWT verification on Starknet. Prove identity without exposing sensitive data on-chain.",
+  openGraph: {
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
