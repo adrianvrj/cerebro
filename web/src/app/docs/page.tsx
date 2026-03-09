@@ -354,7 +354,7 @@ export default function DocsPage() {
                 STARKNET_SEPOLIA
               </div>
               <code className="font-mono text-sm text-white/60">
-                Deployment pending
+                0x03cb5a1c747cbdf80e6051f8c2a68bbbbf40b4bcfd8dc4efe3f84fd15dae77dd.
               </code>
             </div>
             <div className="border border-white/15 p-5">
@@ -362,7 +362,7 @@ export default function DocsPage() {
                 STARKNET_MAINNET
               </div>
               <code className="font-mono text-sm text-white/60">
-                Deployment pending
+                0x02bd46d2be8ef3a804da2b38cfcfecdc04cf16f0f791d36780a6026f9c71fcb1
               </code>
             </div>
           </div>
