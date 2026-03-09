@@ -84,3 +84,12 @@ Upcoming features and security enhancements:
 * **JWT Claim Customization**: Allow clients to specify which claims they need hashed or revealed, making the circuit more flexible for non-OIDC use cases.
 * **Expanded Provider Support**: Add pre-configured settings for major OIDC providers (Google, Apple, Microsoft) including automatic JWKS management and rotation.
 * **Multi-Proof Aggregation**: Support for generating single proofs that verify multiple JWTs or claims simultaneously to save on-chain verification costs.
+
+## Contributing
+
+We welcome contributions from the community! Before getting started, please review our:
+
+*   [Contributing Guidelines](CONTRIBUTING.md)
+*   [Code of Conduct](CODE_OF_CONDUCT.md)
+
+Cerebro is licensed under the [ISC License](LICENSE).
