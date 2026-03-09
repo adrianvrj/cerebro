@@ -1,0 +1,35 @@
+node_modules/
+
+# Circuit build artifacts (large / regenerable)
+build/*.ptau
+build/*.r1cs
+build/*.sym
+build/*.zkey
+build/*.sol
+build/proof.json
+build/public.json
+build/test_input.json
+build/jwt_verify_js/
+
+# Rapidsnark binary (platform-specific, built in Docker)
+build/rapidsnark
+
+# Garaga generated project (regenerable)
+my_project/
+
+# Keep verification_key.json (small, needed for reference)
+!build/verification_key.json
+
+# Environment
+.env
+.env.*
+
+# Stray build outputs in root
+*.sym
+proof_calldata.txt
+
+# OS
+.DS_Store
+
+# Test scripts (local only)
+scripts/

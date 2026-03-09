@@ -1,0 +1,29 @@
+{
+  "name": "cerebro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "@zk-email/circuits": "^6.3.4",
+    "@zk-email/helpers": "^6.4.2",
+    "circomlib": "^2.0.5",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "snarkjs": "^0.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

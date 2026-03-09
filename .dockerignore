@@ -1,0 +1,15 @@
+node_modules
+build/powersOfTau28_hez_final_20.ptau
+build/jwt_verify_0000.zkey
+build/jwt_verify.r1cs
+build/jwt_verify.sym
+build/verification_key.json
+build/proof.json
+build/public.json
+build/test_input.json
+build/rapidsnark
+my_project
+contracts
+circuits
+scripts
+.git
